@@ -1,8 +1,6 @@
-// leetcode: https://leetcode-cn.com/problems/implement-strstr/
+package other
 
-package main
-
-import "fmt"
+// https://leetcode-cn.com/problems/implement-strstr/
 
 func strStrV1(haystack string, needle string) int {
 	needleLenght := len(needle)
@@ -38,8 +36,4 @@ func strStrV2(haystack string, needle string) int {
 		}
 	}
 	return -1
-}
-
-func main() {
-	fmt.Println(strStrV1("a", "a"))
 }

@@ -1,8 +1,4 @@
-// https://leetcode-cn.com/problems/two-sum/ 两数之和
-
-package main
-
-import "fmt"
+package other
 
 func twoNum(nums []int, target int) []int {
 	mapDict := make(map[int]int)
@@ -17,10 +13,4 @@ func twoNum(nums []int, target int) []int {
 		}
 	}
 	return data
-}
-
-func main() {
-	nums := []int{2, 7, 11, 15}
-	target := 22
-	fmt.Println(twoNum(nums, target))
 }
