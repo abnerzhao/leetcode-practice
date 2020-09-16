@@ -1,4 +1,4 @@
-package other
+package array
 
 // https://leetcode-cn.com/problems/implement-strstr/
 

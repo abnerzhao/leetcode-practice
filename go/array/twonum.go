@@ -1,4 +1,4 @@
-package other
+package array
 
 func twoNum(nums []int, target int) []int {
 	mapDict := make(map[int]int)
