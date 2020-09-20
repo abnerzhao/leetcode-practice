@@ -1,7 +1,10 @@
 package stack
 
-// https://leetcode-cn.com/problems/valid-parentheses/
-// 匹配到括号对则出栈
+/*
+https://leetcode-cn.com/problems/valid-parentheses/
+思路：
+匹配到括号对则出栈 时间复杂度 O(n)
+*/
 
 func isValid(s string) bool {
 	pattern := map[string]string{
