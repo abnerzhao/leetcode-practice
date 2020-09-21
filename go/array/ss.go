@@ -1,6 +1,14 @@
 package array
 
-// https://leetcode-cn.com/problems/implement-strstr/
+/*
+https://leetcode-cn.com/problems/implement-strstr/
+
+字符查找，返回字符串出现的位置第一个位置
+
+思路：
+1.根据子字符串的长度进行 步长循环查找 数组切片实现 时间复杂度 O(N)
+2.双指针 回溯 单个字符比较 第一个字符相同才比较 时间复杂 O(N)
+*/
 
 func strStrV1(haystack string, needle string) int {
 	needleLenght := len(needle)
