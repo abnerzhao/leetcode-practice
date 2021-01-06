@@ -7,6 +7,8 @@
 - 如果数据不存在链表中
   - 缓存未满，则将节点直接插入到链表头部
   - 缓存已满，则将链表尾部删除，将新数据插入链表头部
+
+https://leetcode-cn.com/problems/lru-cache/  
 */
 package main
 
