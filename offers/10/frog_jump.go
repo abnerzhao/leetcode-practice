@@ -1,4 +1,4 @@
-// 青蛙跳台阶问题 
+// 青蛙跳台阶问题，本质还是递归算法，斐波那契
 // https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/submissions/
 
 func numWays(n int) int {
